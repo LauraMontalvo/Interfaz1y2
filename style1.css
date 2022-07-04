@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    font-family:cursive;
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+
+}
+.nav{
+
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    color: white;
+    
+}
+
+ul{
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    
+
+}
+.nav-links{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.btn{
+    background-color: rgb(29, 168, 211);
+    border: 0px;
+    width: 100px;
+    height: 25px;
+}
+
+
+.container_1{
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+    gap: 2%;
+
+ 
+}
+
+.container_izquierda
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container_1iarriba{
+    background: linear-gradient(to top, white 0%, white 80%, #2596BE 20%, #2596BE 100% );
+    border: solid gray;
+}
+.container_itext{
+    padding-left: 10%;
+
+}
+#usuario{
+    border-radius: 50%;
+    border: 5px solid black;
+    padding: 2%;
+    margin: 10% 0% 3% 10%;
+}
+
+.container_1iabajo{
+    background: linear-gradient(to top, white 0%, white 65%, rgb(56, 55, 55) 35%,  rgb(56, 55, 55) 100% );
+    border: solid gray;
+    margin-top: 10%;
+  
+    
+}
+
+.tituloblanco{
+
+    
+    padding: 7px;
+    padding-left: 40px;
+    
+    color: rgb(248, 238, 238);
+    border-left: 1px;
+}
+
+.container_derecha
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+.container_1darriba{
+    background: linear-gradient(to top, white 0%, white 60%,rgb(55, 53, 53) 40%,rgb(55, 53, 53) 100% );
+    border: solid gray;
+    font-size: 5mm;
+   
+  
+    
+}
+
+.textoImagen{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 1rem;
+    
+}
+
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 3rem;
+    gap: 15%;
+  
+}
+.container_1dabajo{
+    background: linear-gradient(to top, white 0%, white 80%, rgb(55, 53, 53) 20%, rgb(55, 53, 53) 100% );
+    border: solid gray;
+    margin-top: 10%;
+    
+
+}
+
+.container_1dabajo2{
+    border: 1.5px solid gray;
+    margin-top: 10%;
+
+
+}
+
+/* Utilidades*/
+.inline{
+    display: inline;
+    
+   
+
+}
+.salto{
+    padding-bottom: 3%  ;
+
+}
+.coloropaco{
+    color: #9fa8ac;
+}
+
+
+
+
+
+
+
+
+

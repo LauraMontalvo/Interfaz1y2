@@ -1,0 +1,176 @@
+span{
+    color: rgb(52, 52, 184);
+}
+h1{
+    color: white;
+}
+*{
+    box-sizing: border-box;
+    font-family:'Roboto',sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+
+}
+.nav{
+
+    background-color:rgb(33, 33, 108);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    color: white;
+    
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+}
+
+ul li{
+    display:inline-block;
+    
+    
+}
+.nav a{
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    
+
+}
+.nav-links{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+body,html{
+    background-color: rgb(33, 33, 108); 
+    box-sizing: border-box;
+    border: 0.5%;
+    
+}
+
+.container{
+    display: flex;
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem;
+    
+    flex-direction: column;
+}
+
+.container2{
+
+    display: flex;
+    justify-content: center;
+    
+    
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 5%;
+    margin-top: 1%;
+}
+.containerservices{
+    font-size: 5mm;
+
+
+}
+
+.textoblanco{
+
+    
+    padding: 5px;
+    padding-left: 40px;
+    
+    color: rgb(248, 238, 238);
+    border-left: 0.5px;
+}
+
+.textoImagen{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 1rem;
+
+    
+}
+
+.bloqueAzul{
+    background-color: rgb(33, 33, 108);
+    display: flex;
+    flex-direction: column;
+   
+    text-align: left;
+   
+
+
+}
+.estiloletra{
+    font-size: 1rem ;
+    color: white;
+}
+
+.btn{
+    background-color: rgb(212, 206, 206);
+    border: 0px;
+    width: 100px;
+    height: 25px;
+}
+.estiloletra2{
+    font-size: 1rem ;
+    color: black;
+    padding-left:0.5cm ;
+}
+.salto{
+    padding-bottom: 3%  ;
+
+}
+
+.estiloletra3{
+  
+    color: black;
+    padding-left:0.5cm ;
+
+}
+
+.footer {
+    text-align: center;
+    align-items: center;
+    border: 2px solid rgb(21, 143, 243);
+    background-color: skyblue;
+    margin: 1%;
+    padding: 1rem 2rem 2.5rem 2rem;
+    
+    
+
+    
+}
+.ref a{
+    color: blue;
+    text-decoration: none;
+    
+    
+    
+}
+
+
+
+
+.bloqueceleste{
+    background-color: skyblue;
+    align-content: center;
+    padding: 2rem 2rem 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+
+   
+    text-align: left;
+}
+
+
